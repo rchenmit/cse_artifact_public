@@ -1,0 +1,48 @@
+# CSE artifact
+
+Who I am: PhD student homed in CSE; research focus on healthcare informatics / healthcare analytics (using analytics to derive *insight* for stakeholders including providers, payers and companies)
+Advisor - Jimeng Sun PhD; since 2014
+Current work so far: 2 primary-authored papers, 3 second-authored papers, 4+ middle authored papers
+Research focus on machine-learning based strategies for *computational phenotyping* from electronic health record data
+
+## Summary
+
+There are several pieces of work in this artifact.
+
+1. Stratification strategy for electronic health records data
+2. Computational phenotyping pipeline
+3. Computational phenotyping strategy via knowledge guided tensor factorization
+
+## Stratification Strategy
+
+This is a strategy for two high-yield functions of healthcare service providers and/or payers. The analytic pipeline identifies risk factors for developing uncontrolled hypertension, and automatically segments the patients based on these risk factors.
+
+- published in [Journal of Biomedical and Health Informatics 2016](http://ieeexplore.ieee.org/document/7370874/)
+
+## Computational Phenotyping Pipeline
+
+Computational phenotyping pipeline that is leveraged for analysis of electronic health records data. The pipeline takes as input event sequence files for co-occurrences of events and returns as output a detailed set of patient phenotypes (segments of patients).
+
+This has been used widely for a vast array of phenotype discovery work, in many projects I have led or consulted.
+
+- segmentation of Asthma patients
+- segmentation of ICU patients
+- phenotyping pipeline and risk analysis of ICU patients in Columbia University Medical Center
+- segmentation of heart failure (Northwestern Univ, etc)
+
+
+Code can also be found [here](https://mysterious-caverns-96374.herokuapp.com/)
+
+## Knowledge guided tensor factorization
+
+This is an algorithm that takes as input a tensor (multi-dimensional array) capturing co-occurrences of disparate events from electronic health records and automatically extracts phenotypes of patients. This algorithm is an improvement upon previous work in that it incorporates knowledge-guided constraint (to incorporate domain knowledge), pairwise constraint (to induce more distinct phenotypes), and completion constraint (for robustness to missing or noisy data). 
+
+- work has been published in [KDD (top worldwide Data Mining conference)](http://www.sunlab.org/files/8414/3896/4657/rubik_kdd2015_camera_ready.pdf)
+
+## Questions
+
+Please contact rchen87@gatech.edu for further questions.
+
+
+
+
