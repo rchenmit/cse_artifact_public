@@ -4,7 +4,7 @@
 
 * Advisor - Jimeng Sun PhD; since 2014
 
-* Research focus on healthcare informatics / healthcare analytics (using analytics to derive *insight* for stakeholders including providers, payers and companies)
+* Research focus on healthcare informatics / healthcare analytics (**leveraging analytics to derive *actionable insight* for stakeholders including providers, payers and companies**)
 
 * Current work so far with Sunlab: 2 primary-authored papers, 3 second-authored papers, 4+ middle authored papers
 
