@@ -11,7 +11,7 @@
 * Major topic of focus: solving real-world medical problems segmentation and disease subtyping via **computational phenotyping** from electronic health record data
 
 
-## Summary
+## 0. Summary
 
 There are several pieces of work in this artifact.
 
@@ -19,14 +19,14 @@ There are several pieces of work in this artifact.
 2. Computational phenotyping pipeline
 3. Computational phenotyping strategy via knowledge guided tensor factorization
 
-## Stratification Strategy
+## 1. Stratification Strategy
 
 This is a strategy for two high-yield functions of healthcare service providers and/or payers. The analytic pipeline identifies risk factors for developing uncontrolled hypertension, and automatically segments the patients based on these risk factors.
 
 - published in [Journal of Biomedical and Health Informatics 2016](http://ieeexplore.ieee.org/document/7370874/)
 - check it out in [/1_stratification_strategy](/1_stratification_strategy)
 
-## Computational Phenotyping Pipeline
+## 2. Computational Phenotyping Pipeline
 
 Computational phenotyping pipeline that is leveraged for analysis of electronic health records data. The pipeline takes as input event sequence files for co-occurrences of events and returns as output a detailed set of patient phenotypes (segments of patients).
 
@@ -42,7 +42,7 @@ This has been used widely for a vast array of phenotype discovery work, in many 
 
 Code can also be found [here](https://mysterious-caverns-96374.herokuapp.com/)
 
-## Knowledge guided tensor factorization
+## 3. Knowledge guided tensor factorization
 
 This is an algorithm that takes as input a tensor (multi-dimensional array) capturing co-occurrences of disparate events from electronic health records and automatically extracts phenotypes of patients. This algorithm is an improvement upon previous work in that it incorporates knowledge-guided constraint (to incorporate domain knowledge), pairwise constraint (to induce more distinct phenotypes), and completion constraint (for robustness to missing or noisy data). 
 
