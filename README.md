@@ -1,12 +1,15 @@
 # CSE artifact
 
-* Who I am: PhD student homed in CSE; research focus on healthcare informatics / healthcare analytics (using analytics to derive *insight* for stakeholders including providers, payers and companies)
+* Who I am: PhD student homed in CSE
 
 * Advisor - Jimeng Sun PhD; since 2014
 
+* Research focus on healthcare informatics / healthcare analytics (using analytics to derive *insight* for stakeholders including providers, payers and companies)
+
 * Current work so far: 2 primary-authored papers, 3 second-authored papers, 4+ middle authored papers
 
-* Research focus on machine-learning based strategies for *computational phenotyping* from electronic health record data
+* Major topic of focus: solving real-world medical problems segmentation and disease subtyping via **computational phenotyping** from electronic health record data
+
 
 ## Summary
 
